@@ -24,13 +24,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ctdk/goiardi/client"
-	"github.com/ctdk/goiardi/databag"
-	"github.com/ctdk/goiardi/environment"
-	"github.com/ctdk/goiardi/indexer"
-	"github.com/ctdk/goiardi/node"
-	"github.com/ctdk/goiardi/role"
-	"github.com/ctdk/goiardi/util"
+	"github.com/theckman/goiardi/client"
+	"github.com/theckman/goiardi/databag"
+	"github.com/theckman/goiardi/environment"
+	"github.com/theckman/goiardi/indexer"
+	"github.com/theckman/goiardi/node"
+	"github.com/theckman/goiardi/role"
+	"github.com/theckman/goiardi/util"
 	"github.com/tideland/golib/logger"
 )
 

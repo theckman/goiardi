@@ -20,11 +20,12 @@ package loginfo
 
 import (
 	"encoding/gob"
-	"github.com/ctdk/goiardi/client"
-	"github.com/ctdk/goiardi/config"
-	"github.com/ctdk/goiardi/datastore"
 	"testing"
 	"time"
+
+	"github.com/theckman/goiardi/client"
+	"github.com/theckman/goiardi/config"
+	"github.com/theckman/goiardi/datastore"
 )
 
 func TestLogEvent(t *testing.T) {

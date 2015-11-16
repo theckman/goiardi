@@ -27,11 +27,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ctdk/goiardi/actor"
-	"github.com/ctdk/goiardi/config"
-	"github.com/ctdk/goiardi/datastore"
-	"github.com/ctdk/goiardi/serfin"
-	"github.com/ctdk/goiardi/util"
+	"github.com/theckman/goiardi/actor"
+	"github.com/theckman/goiardi/config"
+	"github.com/theckman/goiardi/datastore"
+	"github.com/theckman/goiardi/serfin"
+	"github.com/theckman/goiardi/util"
 	"github.com/tideland/golib/logger"
 )
 

@@ -21,9 +21,10 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/ctdk/goiardi/config"
-	"github.com/ctdk/goiardi/user"
 	"net/http"
+
+	"github.com/theckman/goiardi/config"
+	"github.com/theckman/goiardi/user"
 )
 
 type authenticator struct {

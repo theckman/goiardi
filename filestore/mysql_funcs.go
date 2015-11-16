@@ -23,7 +23,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/ctdk/goiardi/datastore"
+	"github.com/theckman/goiardi/datastore"
 	"github.com/tideland/golib/logger"
 )
 

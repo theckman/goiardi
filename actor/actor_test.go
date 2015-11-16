@@ -19,11 +19,12 @@ package actor
 
 import (
 	"encoding/gob"
-	"github.com/ctdk/goiardi/client"
-	"github.com/ctdk/goiardi/config"
-	"github.com/ctdk/goiardi/indexer"
-	"github.com/ctdk/goiardi/user"
 	"testing"
+
+	"github.com/theckman/goiardi/client"
+	"github.com/theckman/goiardi/config"
+	"github.com/theckman/goiardi/indexer"
+	"github.com/theckman/goiardi/user"
 )
 
 func TestActorClient(t *testing.T) {

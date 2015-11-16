@@ -21,10 +21,11 @@ package report
 import (
 	"database/sql"
 	"fmt"
-	"github.com/ctdk/goiardi/config"
-	"github.com/ctdk/goiardi/datastore"
 	"log"
 	"time"
+
+	"github.com/theckman/goiardi/config"
+	"github.com/theckman/goiardi/datastore"
 )
 
 func checkForReportSQL(dbhandle datastore.Dbhandle, runID string) (bool, error) {

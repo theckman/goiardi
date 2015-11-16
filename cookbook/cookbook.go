@@ -30,11 +30,11 @@ import (
 	"strings"
 
 	gversion "github.com/ctdk/go-version"
-	"github.com/ctdk/goiardi/config"
-	"github.com/ctdk/goiardi/datastore"
-	"github.com/ctdk/goiardi/filestore"
-	"github.com/ctdk/goiardi/util"
 	"github.com/hashicorp/terraform/depgraph"
+	"github.com/theckman/goiardi/config"
+	"github.com/theckman/goiardi/datastore"
+	"github.com/theckman/goiardi/filestore"
+	"github.com/theckman/goiardi/util"
 	"github.com/tideland/golib/logger"
 )
 

@@ -19,8 +19,9 @@ package loginfo
 /* MySQL specific functions for loginfo */
 
 import (
-	"github.com/ctdk/goiardi/datastore"
 	"time"
+
+	"github.com/theckman/goiardi/datastore"
 )
 
 func (le *LogInfo) fillLogEventFromMySQL(row datastore.ResRow) error {

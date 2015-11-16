@@ -18,7 +18,8 @@ package databag
 
 import (
 	"fmt"
-	"github.com/ctdk/goiardi/datastore"
+
+	"github.com/theckman/goiardi/datastore"
 )
 
 // MySQL-specific functions for data bags & data bag items.

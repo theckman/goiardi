@@ -19,9 +19,10 @@ package client
 import (
 	"database/sql"
 	"fmt"
-	"github.com/ctdk/goiardi/datastore"
-	"github.com/ctdk/goiardi/util"
 	"net/http"
+
+	"github.com/theckman/goiardi/datastore"
+	"github.com/theckman/goiardi/util"
 )
 
 func (c *Client) saveMySQL() error {

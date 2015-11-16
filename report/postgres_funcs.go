@@ -19,8 +19,8 @@ package report
 /* PostgreSQL funcs for reports */
 
 import (
-	"github.com/ctdk/goiardi/datastore"
 	"github.com/lib/pq"
+	"github.com/theckman/goiardi/datastore"
 )
 
 func (r *Report) fillReportFromPostgreSQL(row datastore.ResRow) error {

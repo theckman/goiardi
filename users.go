@@ -20,11 +20,12 @@ package main
 
 import (
 	"encoding/json"
-	"github.com/ctdk/goiardi/actor"
-	"github.com/ctdk/goiardi/loginfo"
-	"github.com/ctdk/goiardi/user"
-	"github.com/ctdk/goiardi/util"
 	"net/http"
+
+	"github.com/theckman/goiardi/actor"
+	"github.com/theckman/goiardi/loginfo"
+	"github.com/theckman/goiardi/user"
+	"github.com/theckman/goiardi/util"
 )
 
 func userHandler(w http.ResponseWriter, r *http.Request) {

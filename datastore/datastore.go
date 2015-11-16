@@ -39,8 +39,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ctdk/goiardi/config"
 	"github.com/pmylund/go-cache"
+	"github.com/theckman/goiardi/config"
 	"github.com/tideland/golib/logger"
 )
 

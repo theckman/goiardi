@@ -18,9 +18,10 @@ package indexer
 
 import (
 	"fmt"
-	"github.com/ctdk/goiardi/datastore"
-	"github.com/ctdk/goiardi/util"
+
 	"github.com/lib/pq"
+	"github.com/theckman/goiardi/datastore"
+	"github.com/theckman/goiardi/util"
 )
 
 type PostgresIndex struct {

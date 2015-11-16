@@ -20,8 +20,9 @@ package datastore
 
 import (
 	"fmt"
-	"github.com/ctdk/goiardi/config"
 	"strings"
+
+	"github.com/theckman/goiardi/config"
 )
 
 func formatPostgresqlConStr(p interface{}) string {

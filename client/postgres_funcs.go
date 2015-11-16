@@ -17,10 +17,11 @@
 package client
 
 import (
-	"github.com/ctdk/goiardi/datastore"
-	"github.com/ctdk/goiardi/util"
 	"net/http"
 	"strings"
+
+	"github.com/theckman/goiardi/datastore"
+	"github.com/theckman/goiardi/util"
 )
 
 func (c *Client) savePostgreSQL() util.Gerror {

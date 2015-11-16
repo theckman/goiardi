@@ -19,9 +19,10 @@ package report
 import (
 	"encoding/gob"
 	"fmt"
-	"github.com/ctdk/goiardi/node"
 	"testing"
 	"time"
+
+	"github.com/theckman/goiardi/node"
 )
 
 func TestReportCreation(t *testing.T) {

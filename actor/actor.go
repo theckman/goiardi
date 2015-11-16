@@ -22,11 +22,12 @@
 package actor
 
 import (
-	"github.com/ctdk/goiardi/client"
-	"github.com/ctdk/goiardi/config"
-	"github.com/ctdk/goiardi/user"
-	"github.com/ctdk/goiardi/util"
 	"net/http"
+
+	"github.com/theckman/goiardi/client"
+	"github.com/theckman/goiardi/config"
+	"github.com/theckman/goiardi/user"
+	"github.com/theckman/goiardi/util"
 )
 
 // Actor is an interface for objects that can make requests to the server.

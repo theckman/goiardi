@@ -19,11 +19,12 @@ package shovey
 /* PostgreSQL funcs for shovey */
 
 import (
-	"github.com/ctdk/goiardi/datastore"
-	"github.com/ctdk/goiardi/util"
-	"github.com/lib/pq"
 	"net/http"
 	"time"
+
+	"github.com/lib/pq"
+	"github.com/theckman/goiardi/datastore"
+	"github.com/theckman/goiardi/util"
 )
 
 func (s *Shovey) fillShoveyFromPostgreSQL(row datastore.ResRow) error {

@@ -23,9 +23,10 @@ package search
 
 import (
 	"fmt"
-	"github.com/ctdk/goiardi/config"
-	"github.com/ctdk/goiardi/indexer"
-	"github.com/ctdk/goiardi/util"
+
+	"github.com/theckman/goiardi/config"
+	"github.com/theckman/goiardi/indexer"
+	"github.com/theckman/goiardi/util"
 )
 
 // Op is a search operator

@@ -18,9 +18,10 @@ package node
 
 import (
 	"database/sql"
-	"github.com/ctdk/goiardi/datastore"
-	"github.com/lib/pq"
 	"strings"
+
+	"github.com/lib/pq"
+	"github.com/theckman/goiardi/datastore"
 )
 
 func (n *Node) savePostgreSQL(tx datastore.Dbhandle, rlb, aab, nab, dab, oab []byte) error {

@@ -22,7 +22,7 @@ package indexer
 import (
 	"fmt"
 
-	"github.com/ctdk/goiardi/config"
+	"github.com/theckman/goiardi/config"
 	"github.com/tideland/golib/logger"
 )
 

@@ -20,8 +20,9 @@ package main
 
 import (
 	"encoding/json"
-	"github.com/ctdk/goiardi/actor"
 	"net/http"
+
+	"github.com/theckman/goiardi/actor"
 )
 
 func principalHandler(w http.ResponseWriter, r *http.Request) {

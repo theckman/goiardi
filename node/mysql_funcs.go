@@ -20,9 +20,10 @@ package node
 
 import (
 	"database/sql"
-	"github.com/ctdk/goiardi/datastore"
-	"github.com/go-sql-driver/mysql"
 	"strings"
+
+	"github.com/go-sql-driver/mysql"
+	"github.com/theckman/goiardi/datastore"
 )
 
 func (n *Node) saveMySQL(tx datastore.Dbhandle, rlb, aab, nab, dab, oab []byte) error {

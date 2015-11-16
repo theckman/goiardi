@@ -19,10 +19,11 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/ctdk/goiardi/actor"
-	"github.com/ctdk/goiardi/node"
-	"github.com/ctdk/goiardi/util"
 	"net/http"
+
+	"github.com/theckman/goiardi/actor"
+	"github.com/theckman/goiardi/node"
+	"github.com/theckman/goiardi/util"
 )
 
 func statusHandler(w http.ResponseWriter, r *http.Request) {

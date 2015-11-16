@@ -21,9 +21,10 @@ package sandbox
 import (
 	"database/sql"
 	"fmt"
-	"github.com/ctdk/goiardi/config"
-	"github.com/ctdk/goiardi/datastore"
 	"log"
+
+	"github.com/theckman/goiardi/config"
+	"github.com/theckman/goiardi/datastore"
 )
 
 func (s *Sandbox) fillSandboxFromSQL(row datastore.ResRow) error {

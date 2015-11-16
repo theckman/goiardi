@@ -19,9 +19,10 @@ package node
 
 import (
 	"encoding/gob"
-	"github.com/ctdk/goiardi/config"
-	"github.com/ctdk/goiardi/indexer"
 	"testing"
+
+	"github.com/theckman/goiardi/config"
+	"github.com/theckman/goiardi/indexer"
 )
 
 func TestActionAtADistance(t *testing.T) {

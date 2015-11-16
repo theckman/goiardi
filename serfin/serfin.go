@@ -21,8 +21,8 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/ctdk/goiardi/config"
 	serfclient "github.com/hashicorp/serf/client"
+	"github.com/theckman/goiardi/config"
 	"github.com/tideland/golib/logger"
 )
 

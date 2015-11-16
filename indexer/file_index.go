@@ -30,8 +30,8 @@ import (
 	"sync"
 
 	"github.com/ctdk/go-trie/gtrie"
-	"github.com/ctdk/goiardi/util"
 	"github.com/philhofer/msgp/msgp"
+	"github.com/theckman/goiardi/util"
 	"github.com/tideland/golib/logger"
 )
 

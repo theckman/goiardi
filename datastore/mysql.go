@@ -20,10 +20,11 @@ package datastore
 
 import (
 	"fmt"
-	"github.com/ctdk/goiardi/config"
 	"net"
 	"net/url"
 	"strings"
+
+	"github.com/theckman/goiardi/config"
 )
 
 func formatMysqlConStr(p interface{}) (string, error) {

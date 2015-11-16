@@ -19,7 +19,7 @@ package role
 /* PostgreSQL funcs for roles */
 
 import (
-	"github.com/ctdk/goiardi/datastore"
+	"github.com/theckman/goiardi/datastore"
 )
 
 func (r *Role) savePostgreSQL() error {

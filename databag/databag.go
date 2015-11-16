@@ -28,10 +28,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/ctdk/goiardi/config"
-	"github.com/ctdk/goiardi/datastore"
-	"github.com/ctdk/goiardi/indexer"
-	"github.com/ctdk/goiardi/util"
+	"github.com/theckman/goiardi/config"
+	"github.com/theckman/goiardi/datastore"
+	"github.com/theckman/goiardi/indexer"
+	"github.com/theckman/goiardi/util"
 	"github.com/tideland/golib/logger"
 )
 

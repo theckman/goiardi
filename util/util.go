@@ -24,13 +24,14 @@ package util
 
 import (
 	"fmt"
-	"github.com/ctdk/goiardi/config"
 	"net/http"
 	"reflect"
 	"regexp"
 	"sort"
 	"strconv"
 	"strings"
+
+	"github.com/theckman/goiardi/config"
 )
 
 // NoDBConfigured is an error for when no database has been configured for use,

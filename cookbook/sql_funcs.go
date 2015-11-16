@@ -21,14 +21,15 @@ package cookbook
 import (
 	"database/sql"
 	"fmt"
-	"github.com/ctdk/goiardi/config"
-	"github.com/ctdk/goiardi/datastore"
-	"github.com/ctdk/goiardi/util"
 	"log"
 	"net/http"
 	"regexp"
 	"sort"
 	"strconv"
+
+	"github.com/theckman/goiardi/config"
+	"github.com/theckman/goiardi/datastore"
+	"github.com/theckman/goiardi/util"
 )
 
 func (c *Cookbook) numVersionsSQL() *int {

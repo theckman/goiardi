@@ -19,8 +19,8 @@ package report
 /* MySQL funcs for reports */
 
 import (
-	"github.com/ctdk/goiardi/datastore"
 	"github.com/go-sql-driver/mysql"
+	"github.com/theckman/goiardi/datastore"
 )
 
 func (r *Report) fillReportFromMySQL(row datastore.ResRow) error {

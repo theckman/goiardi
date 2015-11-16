@@ -21,11 +21,12 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/ctdk/goiardi/actor"
-	"github.com/ctdk/goiardi/databag"
-	"github.com/ctdk/goiardi/loginfo"
-	"github.com/ctdk/goiardi/util"
 	"net/http"
+
+	"github.com/theckman/goiardi/actor"
+	"github.com/theckman/goiardi/databag"
+	"github.com/theckman/goiardi/loginfo"
+	"github.com/theckman/goiardi/util"
 )
 
 func dataHandler(w http.ResponseWriter, r *http.Request) {

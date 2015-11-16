@@ -18,11 +18,12 @@ package indexer
 
 import (
 	"fmt"
-	"github.com/ctdk/goiardi/config"
-	"github.com/ctdk/goiardi/util"
 	"io/ioutil"
 	"os"
 	"testing"
+
+	"github.com/theckman/goiardi/config"
+	"github.com/theckman/goiardi/util"
 )
 
 type testObj struct {

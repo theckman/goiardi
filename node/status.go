@@ -24,8 +24,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/ctdk/goiardi/config"
-	"github.com/ctdk/goiardi/datastore"
+	"github.com/theckman/goiardi/config"
+	"github.com/theckman/goiardi/datastore"
 	"github.com/tideland/golib/logger"
 )
 

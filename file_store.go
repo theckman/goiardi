@@ -22,9 +22,10 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/ctdk/goiardi/config"
-	"github.com/ctdk/goiardi/filestore"
 	"net/http"
+
+	"github.com/theckman/goiardi/config"
+	"github.com/theckman/goiardi/filestore"
 )
 
 func fileStoreHandler(w http.ResponseWriter, r *http.Request) {

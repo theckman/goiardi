@@ -22,10 +22,10 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/ctdk/goiardi/actor"
-	"github.com/ctdk/goiardi/config"
-	"github.com/ctdk/goiardi/shovey"
-	"github.com/ctdk/goiardi/util"
+	"github.com/theckman/goiardi/actor"
+	"github.com/theckman/goiardi/config"
+	"github.com/theckman/goiardi/shovey"
+	"github.com/theckman/goiardi/util"
 	"github.com/tideland/golib/logger"
 )
 

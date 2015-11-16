@@ -20,12 +20,13 @@ package main
 
 import (
 	"encoding/json"
-	"github.com/ctdk/goiardi/actor"
-	"github.com/ctdk/goiardi/environment"
-	"github.com/ctdk/goiardi/loginfo"
-	"github.com/ctdk/goiardi/role"
-	"github.com/ctdk/goiardi/util"
 	"net/http"
+
+	"github.com/theckman/goiardi/actor"
+	"github.com/theckman/goiardi/environment"
+	"github.com/theckman/goiardi/loginfo"
+	"github.com/theckman/goiardi/role"
+	"github.com/theckman/goiardi/util"
 )
 
 func roleHandler(w http.ResponseWriter, r *http.Request) {

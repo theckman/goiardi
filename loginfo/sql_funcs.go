@@ -23,11 +23,12 @@ import (
 	"database/sql"
 	"encoding/json"
 	"fmt"
-	"github.com/ctdk/goiardi/config"
-	"github.com/ctdk/goiardi/datastore"
 	"io/ioutil"
 	"regexp"
 	"time"
+
+	"github.com/theckman/goiardi/config"
+	"github.com/theckman/goiardi/datastore"
 )
 
 func (le *LogInfo) writeEventSQL() error {

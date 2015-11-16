@@ -21,11 +21,12 @@ package node
 
 import (
 	"database/sql"
-	"github.com/ctdk/goiardi/config"
-	"github.com/ctdk/goiardi/datastore"
-	"github.com/ctdk/goiardi/indexer"
-	"github.com/ctdk/goiardi/util"
 	"net/http"
+
+	"github.com/theckman/goiardi/config"
+	"github.com/theckman/goiardi/datastore"
+	"github.com/theckman/goiardi/indexer"
+	"github.com/theckman/goiardi/util"
 )
 
 // Node is a basic Chef node, holding the run list and attributes of the node.

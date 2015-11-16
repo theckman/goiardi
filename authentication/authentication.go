@@ -34,10 +34,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ctdk/goiardi/actor"
-	"github.com/ctdk/goiardi/chefcrypto"
-	"github.com/ctdk/goiardi/config"
-	"github.com/ctdk/goiardi/util"
+	"github.com/theckman/goiardi/actor"
+	"github.com/theckman/goiardi/chefcrypto"
+	"github.com/theckman/goiardi/config"
+	"github.com/theckman/goiardi/util"
 )
 
 // CheckHeader checks the signed headers sent by the client against the expected

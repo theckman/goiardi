@@ -19,11 +19,12 @@ package shovey
 /* MySQL funcs for shovey */
 
 import (
-	"github.com/ctdk/goiardi/datastore"
-	"github.com/ctdk/goiardi/util"
-	"github.com/go-sql-driver/mysql"
 	"net/http"
 	"time"
+
+	"github.com/go-sql-driver/mysql"
+	"github.com/theckman/goiardi/datastore"
+	"github.com/theckman/goiardi/util"
 )
 
 func (s *Shovey) fillShoveyFromMySQL(row datastore.ResRow) error {

@@ -31,12 +31,13 @@ import (
 	"database/sql"
 	"encoding/gob"
 	"fmt"
-	"github.com/ctdk/goiardi/chefcrypto"
-	"github.com/ctdk/goiardi/config"
-	"github.com/ctdk/goiardi/datastore"
-	"github.com/ctdk/goiardi/indexer"
-	"github.com/ctdk/goiardi/util"
 	"net/http"
+
+	"github.com/theckman/goiardi/chefcrypto"
+	"github.com/theckman/goiardi/config"
+	"github.com/theckman/goiardi/datastore"
+	"github.com/theckman/goiardi/indexer"
+	"github.com/theckman/goiardi/util"
 )
 
 // A Client and a user are very similar, with some small differences - users

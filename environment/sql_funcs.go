@@ -19,10 +19,11 @@ package environment
 import (
 	"database/sql"
 	"fmt"
-	"github.com/ctdk/goiardi/config"
-	"github.com/ctdk/goiardi/datastore"
 	"log"
 	"strings"
+
+	"github.com/theckman/goiardi/config"
+	"github.com/theckman/goiardi/datastore"
 )
 
 /* General SQL functions for environments */

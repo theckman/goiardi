@@ -33,13 +33,13 @@ import (
 	"time"
 
 	"github.com/codeskyblue/go-uuid"
-	"github.com/ctdk/goiardi/chefcrypto"
-	"github.com/ctdk/goiardi/config"
-	"github.com/ctdk/goiardi/datastore"
-	"github.com/ctdk/goiardi/node"
-	"github.com/ctdk/goiardi/serfin"
-	"github.com/ctdk/goiardi/util"
 	serfclient "github.com/hashicorp/serf/client"
+	"github.com/theckman/goiardi/chefcrypto"
+	"github.com/theckman/goiardi/config"
+	"github.com/theckman/goiardi/datastore"
+	"github.com/theckman/goiardi/node"
+	"github.com/theckman/goiardi/serfin"
+	"github.com/theckman/goiardi/util"
 	"github.com/tideland/golib/logger"
 )
 

@@ -19,8 +19,8 @@ package environment
 /* Postgres specific functions for environments */
 
 import (
-	"github.com/ctdk/goiardi/datastore"
-	"github.com/ctdk/goiardi/util"
+	"github.com/theckman/goiardi/datastore"
+	"github.com/theckman/goiardi/util"
 )
 
 func (e *ChefEnvironment) saveEnvironmentPostgreSQL() util.Gerror {
