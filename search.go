@@ -21,7 +21,11 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/ctdk/goas/v2/logger"
+	"net/http"
+	"net/url"
+	"regexp"
+	"strconv"
+
 	"github.com/ctdk/goiardi/actor"
 	"github.com/ctdk/goiardi/client"
 	"github.com/ctdk/goiardi/config"
@@ -32,10 +36,7 @@ import (
 	"github.com/ctdk/goiardi/role"
 	"github.com/ctdk/goiardi/search"
 	"github.com/ctdk/goiardi/util"
-	"net/http"
-	"net/url"
-	"regexp"
-	"strconv"
+	"github.com/tideland/golib/logger"
 )
 
 func searchHandler(w http.ResponseWriter, r *http.Request) {

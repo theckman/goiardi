@@ -37,8 +37,8 @@ import (
 	"time"
 
 	"github.com/BurntSushi/toml"
-	"github.com/ctdk/goas/v2/logger"
 	"github.com/jessevdk/go-flags"
+	"github.com/tideland/golib/logger"
 )
 
 // Conf is the master struct for holding configuration options.

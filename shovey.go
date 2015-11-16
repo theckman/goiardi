@@ -19,13 +19,14 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/ctdk/goas/v2/logger"
+	"net/http"
+	"strconv"
+
 	"github.com/ctdk/goiardi/actor"
 	"github.com/ctdk/goiardi/config"
 	"github.com/ctdk/goiardi/shovey"
 	"github.com/ctdk/goiardi/util"
-	"net/http"
-	"strconv"
+	"github.com/tideland/golib/logger"
 )
 
 func shoveyHandler(w http.ResponseWriter, r *http.Request) {
